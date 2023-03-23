@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="2" failures="0" name="com.example.CatTest" time="0.017" errors="0" skipped="0">
+<testsuite tests="2" failures="0" name="com.example.CatTest" time="0.033" errors="0" skipped="0">
   <properties>
     <property name="idea.version" value="2022.2.4"/>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="java.vm.version" value="19.0.1+10-FR"/>
     <property name="sun.boot.library.path" value="C:\Users\Anatoliy\.jdks\corretto-19.0.1\bin"/>
-    <property name="maven.multiModuleProjectDirectory" value="G:\AUTOMATIZATION\6\qa_java_6"/>
+    <property name="maven.multiModuleProjectDirectory" value="G:\AUTOMATIZATION\6\Sprint_6"/>
     <property name="java.vm.vendor" value="Amazon.com Inc."/>
     <property name="java.vendor.url" value="https://aws.amazon.com/corretto/"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
@@ -16,7 +16,7 @@
     <property name="user.country" value="RU"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="G:\AUTOMATIZATION\6\qa_java_6"/>
+    <property name="user.dir" value="G:\AUTOMATIZATION\6\Sprint_6"/>
     <property name="java.vm.compressedOopsMode" value="Zero based"/>
     <property name="java.runtime.version" value="19.0.1+10-FR"/>
     <property name="os.arch" value="amd64"/>
@@ -46,7 +46,7 @@
     <property name="java.class.path" value="C:\Program Files\JetBrains\IntelliJ IDEA 2022.2\plugins\maven\lib\maven3\boot\plexus-classworlds-2.6.0.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2022.2\plugins\maven\lib\maven3\boot\plexus-classworlds.license"/>
     <property name="java.vm.specification.version" value="19"/>
     <property name="sun.arch.data.model" value="64"/>
-    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version=2022.2.4 verify"/>
+    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version=2022.2.4 clean verify"/>
     <property name="java.home" value="C:\Users\Anatoliy\.jdks\corretto-19.0.1"/>
     <property name="user.language" value="ru"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
@@ -65,6 +65,6 @@
     <property name="sun.stdout.encoding" value="UTF-8"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="com.example.CatTest" name="getCatSoundTest" time="0.017"/>
+  <testcase classname="com.example.CatTest" name="getCatSoundTest" time="0.033"/>
   <testcase classname="com.example.CatTest" name="getCatFoodTest" time="0"/>
 </testsuite>

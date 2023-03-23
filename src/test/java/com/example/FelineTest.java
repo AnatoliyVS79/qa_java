@@ -32,4 +32,10 @@ public class FelineTest {
         int expected = 1;
         assertEquals("Ожидаем 1", expected, feline.getKittens());
     }
+
+    @Test
+    public void getFelineKittensCountTest() {
+        int expected = 10;
+        assertEquals("Ожидаем 10", expected, feline.getKittens(10));
+    }
 }
